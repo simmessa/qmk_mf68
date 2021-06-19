@@ -19,12 +19,19 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "config_common.h"
 
+// QMK DFU by Simmessa
+#define QMK_ESC_OUTPUT F1 // usually COL
+#define QMK_ESC_INPUT D5 // usually ROW
+#define QMK_LED B0
+#define QMK_SPEAKER C6
+
 /* USB Device descriptor parameter */
-#define VENDOR_ID       0x3430 // "40"
-#define PRODUCT_ID      0x4D68 // "M68"
+#define VENDOR_ID       0xCEEB
+#define PRODUCT_ID      0x0510
 #define DEVICE_VER      0x0101
 #define MANUFACTURER    di0ib
 #define PRODUCT         MF68
+#define DESCRIPTION     Magicforce 68 with programmable PCB replacement
 
 /* key matrix size */
 #define MATRIX_ROWS 8
