@@ -9,6 +9,11 @@
 
 This is a keyboard firmware based on the [tmk\_keyboard firmware](https://github.com/tmk/tmk_keyboard) with some useful features for Atmel AVR and ARM controllers, and more specifically, the [OLKB product line](https://olkb.com), the [ErgoDox EZ](https://ergodox-ez.com) keyboard, and the [Clueboard product line](https://clueboard.co).
 
+## Simmessa memorandum
+How does this thing work? Can't really remember so let's write down some notes:
+
+- edit stuff in keyboards/simmessa/mf68
+- run `make simmessa/mf68:default:production`
 ## Documentation
 
 * [See the official documentation on docs.qmk.fm](https://docs.qmk.fm)
