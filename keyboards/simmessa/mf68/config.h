@@ -86,6 +86,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
 
+/* UNICODE STUFF SIMMESSA */
+#define UNICODE_SELECTED_MODES UC_WINC
+
 /*
  * Force NKRO
  *
