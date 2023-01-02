@@ -1,5 +1,6 @@
 #include QMK_KEYBOARD_H
 
+// Same as V1 plus VIA support
 //3 layers here
 
 #define _QWERTY 0
