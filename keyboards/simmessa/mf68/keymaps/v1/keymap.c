@@ -15,7 +15,7 @@
 #define EGRAV UC(0x0E8) //0x0E8 // è
 #define EACUT UC(0x0E9) //0x0E9 // é
 #define IGRAV UC(0x0EC) //0x0EC // ì
-#define EUROS UC(0x20AC) //0x20AC // €
+#define EUROS UC(0x20AC) //0x20AC // a€
 
 /*
 * Layer _BASE_LAYER
